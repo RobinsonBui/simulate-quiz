@@ -41,3 +41,4 @@ __screenshots__/
 *.md
 !README.md
 !GITHUB_PAGES_SETUP.md
+!CLOUDFLARE_SETUP.md

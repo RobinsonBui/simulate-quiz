@@ -13,5 +13,6 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
-  base: '/simulate-quiz/',
+  // Base URL: '/' para Cloudflare Pages, '/simulate-quiz/' para GitHub Pages
+  base: process.env.CF_PAGES ? '/' : '/simulate-quiz/',
 })
