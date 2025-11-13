@@ -3,8 +3,9 @@ import { ref } from 'vue';
 import Quiz from './components/quiz/Quiz.vue';
 import ImageChecker from './components/quiz/ImageChecker.vue';
 import UserStats from './components/quiz/Stats/UserStats.vue';
+import QuestionBank from './components/quiz/Study/QuestionBank.vue';
 
-const currentView = ref<'quiz' | 'image-checker'>('quiz');
+const currentView = ref<'quiz' | 'image-checker' | 'question-bank'>('quiz');
 const showStats = ref(false);
 
 // Detectar si estamos en modo debug (URL con ?debug=images)
@@ -26,38 +27,51 @@ if (urlParams.get('debug') === 'images') {
             </h1>
           </div>
           
-          <div class="flex gap-1.5 sm:gap-2 w-full sm:w-auto">
+          <div class="flex gap-1.5 sm:gap-2 w-full sm:w-auto flex-wrap">
             <button
               @click="currentView = 'quiz'"
               :class="[
-                'flex-1 sm:flex-none px-3 sm:px-4 py-2 rounded-lg text-sm sm:text-base font-medium transition-colors',
+                'flex-1 sm:flex-none px-2 sm:px-3 py-2 rounded-lg text-xs sm:text-sm font-medium transition-colors',
                 currentView === 'quiz'
                   ? 'bg-blue-600 text-white'
                   : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
               ]"
             >
               <span class="hidden sm:inline">📝 Simulacro</span>
-              <span class="sm:hidden">📝 Quiz</span>
+              <span class="sm:hidden">📝</span>
+            </button>
+            <button
+              @click="currentView = 'question-bank'"
+              :class="[
+                'flex-1 sm:flex-none px-2 sm:px-3 py-2 rounded-lg text-xs sm:text-sm font-medium transition-colors',
+                currentView === 'question-bank'
+                  ? 'bg-blue-600 text-white'
+                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+              ]"
+              title="Ver banco de preguntas"
+            >
+              <span class="hidden sm:inline">📚 Banco</span>
+              <span class="sm:hidden">📚</span>
             </button>
             <button
               @click="showStats = true"
-              class="flex-1 sm:flex-none px-3 sm:px-4 py-2 rounded-lg text-sm sm:text-base font-medium transition-colors bg-gray-100 text-gray-700 hover:bg-gray-200"
+              class="flex-1 sm:flex-none px-2 sm:px-3 py-2 rounded-lg text-xs sm:text-sm font-medium transition-colors bg-gray-100 text-gray-700 hover:bg-gray-200"
               title="Ver tus estadísticas"
             >
-              <span class="hidden sm:inline">📊 Estadísticas</span>
-              <span class="sm:hidden">📊 Stats</span>
+              <span class="hidden sm:inline">📊 Stats</span>
+              <span class="sm:hidden">📊</span>
             </button>
             <button
               @click="currentView = 'image-checker'"
               :class="[
-                'flex-1 sm:flex-none px-3 sm:px-4 py-2 rounded-lg text-sm sm:text-base font-medium transition-colors',
+                'flex-1 sm:flex-none px-2 sm:px-3 py-2 rounded-lg text-xs sm:text-sm font-medium transition-colors',
                 currentView === 'image-checker'
                   ? 'bg-blue-600 text-white'
                   : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
               ]"
             >
-              <span class="hidden sm:inline">🖼️ Verificar Imágenes</span>
-              <span class="sm:hidden">🖼️ Imágenes</span>
+              <span class="hidden sm:inline">🖼️ Imágenes</span>
+              <span class="sm:hidden">🖼️</span>
             </button>
           </div>
         </div>
@@ -65,7 +79,7 @@ if (urlParams.get('debug') === 'images') {
     </div>
 
     <!-- Contenido -->
-    <div class="py-3 sm:py-6 md:py-8">
+    <div v-if="currentView !== 'question-bank'" class="py-3 sm:py-6 md:py-8">
       <div class="container mx-auto px-3 sm:px-4">
         <transition name="fade" mode="out-in">
           <Quiz v-if="currentView === 'quiz'" />
@@ -73,6 +87,9 @@ if (urlParams.get('debug') === 'images') {
         </transition>
       </div>
     </div>
+
+    <!-- Banco de Preguntas (pantalla completa) -->
+    <QuestionBank v-if="currentView === 'question-bank'" @close="currentView = 'quiz'" />
 
     <!-- Modal de Estadísticas -->
     <UserStats v-if="showStats" @close="showStats = false" />
