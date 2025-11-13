@@ -43,6 +43,54 @@ const categories = ref<CategoryEmphasis[]>([
     weight: 1,
     icon: '⚠️',
     description: 'Multas y sanciones de tránsito'
+  },
+  {
+    name: 'Medio Ambiente',
+    weight: 1,
+    icon: '🌱',
+    description: 'Conducción ecológica y emisiones'
+  },
+  {
+    name: 'Tecnología Vehicular',
+    weight: 1,
+    icon: '🔧',
+    description: 'Sistemas modernos y vehículos eléctricos'
+  },
+  {
+    name: 'Psicología del Conductor',
+    weight: 1,
+    icon: '🧠',
+    description: 'Comportamiento, fatiga y emociones'
+  },
+  {
+    name: 'Convivencia e Inclusión',
+    weight: 1,
+    icon: '🤝',
+    description: 'Respeto a peatones, ciclistas y otros usuarios'
+  },
+  {
+    name: 'Emergencias y Primeros Auxilios',
+    weight: 1,
+    icon: '🚑',
+    description: 'Protocolo PAS y atención de accidentes'
+  },
+  {
+    name: 'Clima y Condiciones Especiales',
+    weight: 1,
+    icon: '🌧️',
+    description: 'Lluvia, niebla, aquaplaning y viento'
+  },
+  {
+    name: 'Rutas y Geografía',
+    weight: 1,
+    icon: '🗺️',
+    description: 'Montaña, túneles y peajes'
+  },
+  {
+    name: 'Economía y Costos',
+    weight: 1,
+    icon: '💰',
+    description: 'Mantenimiento, seguros y ahorro'
   }
 ]);
 
