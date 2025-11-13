@@ -4,7 +4,7 @@
         "bloque": "Señalización Vial",
         "tema": "Reglamentarias",
         "pregunta": "¿Qué indica esta señal circular con una bicicleta?",
-        "imagen": "https://www.ecoapps.com.co/wp-content/uploads/2020/11/senales-ciclistas-verticales-reglamentarias-03.jpg",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SR-26-PROHIBIDA-LA-CIRCULACION-DE-BICICLETAS.png",
         "opciones": [
             "Vía compartida con ciclistas",
             "Prohibida la circulación de bicicletas",
@@ -36,7 +36,7 @@
         "bloque": "El Vehículo",
         "tema": "Mecánica Básica",
         "pregunta": "Este testigo amarillo en el tablero (forma de motor) se conoce como 'Check Engine'. ¿Qué indica?",
-        "imagen": "https://d3nqciqdbtzkc.cloudfront.net/articulos/articulos-25229.jpg",
+        "imagen": "https://www.autofacil.es/wp-content/uploads/2021/04/Testigo-motor-1024x683.jpg",
         "opciones": [
             "Falta de aceite",
             "Falla en el sistema de inyección o emisiones",
@@ -100,7 +100,7 @@
         "bloque": "Señalización Vial",
         "tema": "Preventivas",
         "pregunta": "¿Qué advierte esta señal amarilla con dos flechas en sentidos opuestos?",
-        "imagen": "https://media.istockphoto.com/id/1370833373/es/vector/advertencia-bidireccional-de-se%C3%B1ales-de-tr%C3%A1fico-vectoriales.jpg?s=612x612&w=is&k=20&c=ueBPMdpkY7wc4h0Vy7kfTPnsTMx_eRL1NBzHAI3SlkE=",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SP-40-DOBLE-VIA-MAS-ADELANTE.png",
         "opciones": [
             "Prohibido adelantar",
             "Inicio de vía con separador",
@@ -148,7 +148,7 @@
         "bloque": "Señalización Vial",
         "tema": "Reglamentarias",
         "pregunta": "Esta señal (círculo rojo, fondo blanco, 'E' tachada) significa:",
-        "imagen": "https://media.istockphoto.com/id/1346285361/es/vector/no-hay-signo-de-estacionamiento-s%C3%ADmbolo-icono-ilustraci%C3%B3n-vectorial-dise%C3%B1o-editable.jpg?s=612x612&w=0&k=20&c=Ep5NLCgcNuI_4-l9kNhBMTSfAlYpAg_LBqPKYqn0Bxs=",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SR-28-PROHIBIDO-PARQUEAR.png",
         "opciones": [
             "Zona de Estacionamiento Regulado",
             "Exclusivo para emergencias",
@@ -196,7 +196,7 @@
         "bloque": "Señalización Vial",
         "tema": "Preventivas",
         "pregunta": "¿Qué advierte esta señal?",
-        "imagen": "https://jopavisos.com/wp-content/uploads/2021/04/Transito-amarillas-28.png",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SP-23-DESCENSO-PELIGROSO.png",
         "opciones": [
             "Ascenso peligroso",
             "Descenso peligroso (bajada fuerte)",
@@ -212,7 +212,7 @@
         "bloque": "El Vehículo",
         "tema": "Mecánica Básica",
         "pregunta": "Este testigo rojo en el tablero (termómetro en líquido) indica:",
-        "imagen": "https://gmb.net/es/wp-content/uploads/sites/2/2021/07/Sensor-de-Temperatura.jpg",
+        "imagen": "https://www.actualidadmotor.com/wp-content/uploads/2022/03/testigo-temperatura-motor-rojo.jpg",
         "opciones": [
             "Nivel bajo de combustible",
             "Baja presión de aceite",
@@ -308,7 +308,7 @@
         "bloque": "Señalización Vial",
         "tema": "Informativas",
         "pregunta": "Una señal informativa de color CAFÉ indica:",
-        "imagen": "https://pbs.twimg.com/media/EDeQWY4WkAEPjo_.jpg",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SI-20-MONUMENTO-NACIONAL.png",
         "opciones": [
             "Servicios generales (gasolinera, restaurante)",
             "Peligro en la vía",
@@ -372,7 +372,7 @@
         "bloque": "Señalización Vial",
         "tema": "Reglamentarias",
         "pregunta": "¿Qué indica esta señal?",
-        "imagen": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Colombia_road_sign_SR-29.svg",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SR-29-PROHIBIDO-PITO.png",
         "opciones": [
             "Zona de pito obligatorio",
             "Taller mecánico cerca",
@@ -420,7 +420,7 @@
         "bloque": "Señalización Vial",
         "tema": "Preventivas",
         "pregunta": "¿Qué advierte esta señal amarilla?",
-        "imagen": "https://jopavisos.com/wp-content/uploads/2021/04/Transito-amarillas-2-11.png",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SP-46-ZONA-DE-PEATONES.png",
         "opciones": [
             "Proximidad de un cruce peatonal (cebra)",
             "Prohibido el paso de peatones",
@@ -484,7 +484,7 @@
         "bloque": "Señalización Vial",
         "tema": "Marcas Viales",
         "pregunta": "¿Qué indica una 'X' grande pintada en el pavimento dentro de un cruce?",
-        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd9LUjnOr6HNOpR9FqKAyxmPzhz11czLIH7g&s",
+        "imagen": "https://www.motor.com.co/files/article_multimedia/uploads/2021/08/18/611d92305377f.jpeg",
         "opciones": [
             "Zona de parqueo rápido",
             "Prohibido bloquear la intersección",
@@ -516,7 +516,7 @@
         "bloque": "El Vehículo",
         "tema": "Mecánica Básica",
         "pregunta": "Este testigo rojo en el tablero (batería) indica:",
-        "imagen": "https://images.coches.com/_news_/2017/10/testigo-bateria-300x200.jpg",
+        "imagen": "https://www.actualidadmotor.com/wp-content/uploads/2016/09/Testigo-bateria-coche-rojo-830x553.jpg",
         "opciones": [
             "La batería está completamente cargada",
             "Hay una falla en el sistema de carga (alternador o batería)",
@@ -532,7 +532,7 @@
         "bloque": "Señalización Vial",
         "tema": "Preventivas",
         "pregunta": "¿Qué tipo de curva advierte esta señal?",
-        "imagen": "https://jopavisos.com/wp-content/uploads/2021/04/Transito-amarillas-07.png",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SP-04-CURVAS-SUCESIVAS-PRIMERA-A-LA-IZQUIERDA.png",
         "opciones": [
             "Curva simple a la izquierda",
             "Vía resbaladiza",
@@ -580,7 +580,7 @@
         "bloque": "Señalización Vial",
         "tema": "Reglamentarias",
         "pregunta": "¿Qué indica esta señal?",
-        "imagen": "https://jopavisos.com/wp-content/uploads/2021/04/Transito-rojas2-18.png",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SR-35-PROHIBIDA-LA-CIRCULACION-DE-VEHICULOS-DE-CARGA.png",
         "opciones": [
             "Prohibida la circulación de vehículos de carga",
             "Zona de cargue y descargue",
@@ -676,7 +676,7 @@
         "bloque": "Señalización Vial",
         "tema": "Preventivas",
         "pregunta": "¿Qué advierte esta señal?",
-        "imagen": "https://jopavisos.com/wp-content/uploads/2021/04/Transito-amarillas-24.png",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SP-33-SUPERFICIE-RIZADA.png",
         "opciones": [
             "Policías acostados (reductores)",
             "Vía en mal estado (baches)",
@@ -708,7 +708,7 @@
         "bloque": "El Vehículo",
         "tema": "Mecánica Básica",
         "pregunta": "Este testigo azul en el tablero (único de este color) indica:",
-        "imagen": "https://images.rewise.ai/originals/legos/testigo_luz_alta.png",
+        "imagen": "https://www.autofacil.es/wp-content/uploads/2021/04/Testigo-luces-largas-1024x683.jpg",
         "opciones": [
             "Motor frío",
             "Luces altas (plenas) encendidas",
@@ -724,7 +724,7 @@
         "bloque": "Señalización Vial",
         "tema": "Preventivas",
         "pregunta": "Esta señal amarilla con una flecha recta y otra que se anexa indica:",
-        "imagen": "https://practicatest.co/static/img/co/temario/senales_preventivas/sp22_incorporacion_derecha.png",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SP-53-CONFLUENCIA-A-LA-DERECHA.png",
         "opciones": [
             "Bifurcación (la vía se abre en dos)",
             "Prohibido girar",
@@ -772,7 +772,7 @@
         "bloque": "Señalización Vial",
         "tema": "Reglamentarias",
         "pregunta": "¿Qué indica esta señal SR-41?",
-        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGxx5y6tlTvsaJefbOCZx6Z-v2ECILVXT7lQ&s",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SR-41-CIRCULACION-OBLIGATORIA.png",
         "opciones": [
             "Prohibido seguir derecho",
             "Vía de un solo sentido",
@@ -1620,7 +1620,7 @@
         "bloque": "Señalización Vial",
         "tema": "Preventivas",
         "pregunta": "¿Qué advierte esta señal?",
-        "imagen": "https://abogadoaccidenteskevinpalacio.com/wp-content/uploads/2024/08/rotulo-vial-advertencia-tumulo-tope-cod-sp-54-removebg-preview-232x300.png",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SP-34-RESALTO.png",
         "opciones": [
             "Superficie rizada",
             "Resalto (reductor de velocidad o 'policía acostado')",
@@ -1700,7 +1700,7 @@
         "bloque": "Señalización Vial",
         "tema": "Reglamentarias",
         "pregunta": "Esta señal azul circular (SR-42) indica:",
-        "imagen": "https://serior-10c75.kxcdn.com/wp-content/uploads/2018/12/OB-124.png.webp",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SR-42-CIRCULACION-OBLIGATORIA-DE-PEATONES.png",
         "opciones": [
             "Prohibido el paso de peatones",
             "Cruce de peatones cerca",
@@ -1780,7 +1780,7 @@
         "bloque": "Señalización Vial",
         "tema": "Preventivas",
         "pregunta": "¿Qué le advierte esta señal amarilla?",
-        "imagen": "https://cambiocolombia.com/media/photologue/photos/2022-07/fuanaatropellada.jpg",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SP-48-ANIMALES-EN-LA-VIA.png",
         "opciones": [
             "Prohibido el paso de ganado",
             "Zoológico cerca",
@@ -1892,7 +1892,7 @@
         "bloque": "Señalización Vial",
         "tema": "Preventivas",
         "pregunta": "¿Qué advierte esta señal?",
-        "imagen": "https://jopavisos.com/wp-content/uploads/2021/04/Transito-amarillas-2-29.png",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SP-37-FINAL-DE-PAVIMENTO.png",
         "opciones": [
             "Vía sin salida",
             "Prohibido seguir derecho",
@@ -2004,7 +2004,7 @@
         "bloque": "Señalización Vial",
         "tema": "Transitorias",
         "pregunta": "¿Qué significa esta señal naranja?",
-        "imagen": "https://senalizacion.com.co/wp-content/uploads/2025/08/banderero.png",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/ST-02-BANDERERO.png",
         "opciones": [
             "Paso de peatones",
             "Agente de tránsito",
@@ -2084,7 +2084,7 @@
         "bloque": "Señalización Vial",
         "tema": "Preventivas",
         "pregunta": "¿Qué significa esta señal?",
-        "imagen": "https://jopavisos.com/wp-content/uploads/2021/04/Transito-amarillas-2-26.png",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SP-44-INICIO-DE-SEPARADOR-A-LA-IZQUIERDA.png",
         "opciones": [
             "Estrechamiento de la vía",
             "Bifurcación (la vía se abre)",
@@ -2164,7 +2164,7 @@
         "bloque": "Señalización Vial",
         "tema": "Marcas Viales",
         "pregunta": "Las líneas amarillas en 'zigzag' pintadas en el pavimento indican:",
-        "imagen": "https://jackwinsafety.com/wp-content/uploads/2025/06/Zig-Zag-Lines-Road.jpg",
+        "imagen": "https://carroya.com/noticias/sites/default/files/imagenes_noticias/800-lineas-amarillas-en-zigzag-.jpg",
         "opciones": [
             "Prohibición de adelantar",
             "Zona de parqueo permitido",
@@ -2228,7 +2228,7 @@
         "bloque": "Señalización Vial",
         "tema": "Informativas",
         "pregunta": "Esta señal informativa verde ¿qué indica?",
-        "imagen": "https://www.shutterstock.com/image-vector/classic-green-traffic-information-sign-260nw-1048566224.jpg",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SI-01-POSTE-DE-DESTINO.png",
         "opciones": [
             "Límite de velocidad",
             "Distancia a la salida de la autopista",
@@ -2308,7 +2308,7 @@
         "bloque": "Señalización Vial",
         "tema": "Preventivas",
         "pregunta": "¿Qué advierte esta señal?",
-        "imagen": "https://jopavisos.com/wp-content/uploads/2021/04/Transito-amarillas-2-07.png",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SP-45-ZONA-DE-DERRUMBES.png",
         "opciones": [
             "Caída de rocas (Zona de derrumbes)",
             "Maquinaria agrícola",
