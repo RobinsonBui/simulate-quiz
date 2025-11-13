@@ -40,3 +40,4 @@ __screenshots__/
 *.sh
 *.md
 !README.md
+!GITHUB_PAGES_SETUP.md
