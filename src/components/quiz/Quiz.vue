@@ -13,6 +13,7 @@ const statsStore = useQuestionStatsStore();
 // Estado del simulador
 const quizStarted = ref(false);
 const categoryWeights = ref<Record<string, number>>({});
+const selectedQuestions = ref<any[]>([]); // Preguntas seleccionadas para este quiz
 const currentQuestionIndex = ref(0);
 const selectedOption = ref<number | undefined>(undefined);
 const score = ref(0);
@@ -126,6 +127,12 @@ const selectWeightedQuestions = (questions: any[], count: number) => {
 
 // Mezclar preguntas y seleccionar 40
 const questions = computed(() => {
+  // Si ya hay preguntas seleccionadas, usarlas (no recalcular)
+  if (selectedQuestions.value.length > 0) {
+    return selectedQuestions.value;
+  }
+  
+  // Solo para preview antes de iniciar el quiz
   if (Object.keys(categoryWeights.value).length === 0) {
     return [...questionsData]
       .sort(() => 0.5 - Math.random())
@@ -211,6 +218,16 @@ const finishQuiz = () => {
 // Iniciar el quiz con las categorías seleccionadas
 const handleStartQuiz = (weights: Record<string, number>) => {
   categoryWeights.value = weights;
+  
+  // Seleccionar preguntas UNA SOLA VEZ al iniciar
+  if (Object.keys(weights).length === 0) {
+    selectedQuestions.value = [...questionsData]
+      .sort(() => 0.5 - Math.random())
+      .slice(0, 40);
+  } else {
+    selectedQuestions.value = selectQuestionsWithEmphasis(weights);
+  }
+  
   quizStarted.value = true;
   startTimer();
 };
@@ -225,6 +242,7 @@ const restartQuiz = () => {
   userAnswers.value = [];
   quizStarted.value = false;
   categoryWeights.value = {};
+  selectedQuestions.value = []; // Limpiar preguntas seleccionadas
 };
 
 // Limpiar el temporizador al desmontar el componente
