@@ -1,0 +1,115 @@
+═══════════════════════════════════════════════════════════════════════════
+  📸 LISTA DE IMÁGENES A REEMPLAZAR - SIMULADOR DE TRÁNSITO
+═══════════════════════════════════════════════════════════════════════════
+
+TOTAL: 26 imágenes
+- 22 Señalización Vial (PNG)
+- 4 El Vehículo (JPG)
+
+═══════════════════════════════════════════════════════════════════════════
+  SEÑALIZACIÓN VIAL (22 imágenes)
+═══════════════════════════════════════════════════════════════════════════
+
+1. B1_S_011.png - SR-26 Prohibida circulación de bicicletas
+   https://vial.vialcontrol.co/wp-content/uploads/2022/01/SR-26-PROHIBIDA-LA-CIRCULACION-DE-BICICLETAS.png
+
+2. B1_S_013.png - SP-40 Doble vía más adelante
+   https://vial.vialcontrol.co/wp-content/uploads/2022/01/SP-40-DOBLE-VIA-MAS-ADELANTE.png
+
+3. B1_S_014.png - SR-28 Prohibido parquear
+   https://vial.vialcontrol.co/wp-content/uploads/2022/01/SR-28-PROHIBIDO-PARQUEAR.png
+
+4. B1_S_015.png - SP-23 Descenso peligroso
+   https://vial.vialcontrol.co/wp-content/uploads/2022/01/SP-23-DESCENSO-PELIGROSO.png
+
+5. B1_S_018.png - SI-20 Monumento nacional
+   https://vial.vialcontrol.co/wp-content/uploads/2022/01/SI-20-MONUMENTO-NACIONAL.png
+
+6. B1_S_019.png - SR-29 Prohibido pito
+   https://vial.vialcontrol.co/wp-content/uploads/2022/01/SR-29-PROHIBIDO-PITO.png
+
+7. B1_S_020.png - SP-46 Zona de peatones
+   https://vial.vialcontrol.co/wp-content/uploads/2022/01/SP-46-ZONA-DE-PEATONES.png
+
+8. B1_S_021.jpg - Marcas viales - No bloquear cruce
+   https://www.motor.com.co/files/article_multimedia/uploads/2021/08/18/611d92305377f.jpeg
+
+9. B1_S_022.png - SP-04 Curvas sucesivas
+   https://vial.vialcontrol.co/wp-content/uploads/2022/01/SP-04-CURVAS-SUCESIVAS-PRIMERA-A-LA-IZQUIERDA.png
+
+10. B1_S_023.png - SR-35 Prohibida circulación vehículos de carga
+    https://vial.vialcontrol.co/wp-content/uploads/2022/01/SR-35-PROHIBIDA-LA-CIRCULACION-DE-VEHICULOS-DE-CARGA.png
+
+11. B1_S_025.png - SP-33 Superficie rizada
+    https://vial.vialcontrol.co/wp-content/uploads/2022/01/SP-33-SUPERFICIE-RIZADA.png
+
+12. B1_S_026.png - SP-53 Confluencia a la derecha
+    https://vial.vialcontrol.co/wp-content/uploads/2022/01/SP-53-CONFLUENCIA-A-LA-DERECHA.png
+
+13. B1_S_027.png - SR-41 Circulación obligatoria
+    https://vial.vialcontrol.co/wp-content/uploads/2022/01/SR-41-CIRCULACION-OBLIGATORIA.png
+
+14. B1_S_028.png - SP-34 Resalto (policía acostado)
+    https://vial.vialcontrol.co/wp-content/uploads/2022/01/SP-34-RESALTO.png
+
+15. B1_S_029.png - SR-42 Circulación obligatoria de peatones
+    https://vial.vialcontrol.co/wp-content/uploads/2022/01/SR-42-CIRCULACION-OBLIGATORIA-DE-PEATONES.png
+
+16. B1_S_030.png - SP-48 Animales en la vía
+    https://vial.vialcontrol.co/wp-content/uploads/2022/01/SP-48-ANIMALES-EN-LA-VIA.png
+
+17. B1_S_031.png - SP-37 Final de pavimento
+    https://vial.vialcontrol.co/wp-content/uploads/2022/01/SP-37-FINAL-DE-PAVIMENTO.png
+
+18. B1_S_033.png - ST-02 Banderero
+    https://vial.vialcontrol.co/wp-content/uploads/2022/01/ST-02-BANDERERO.png
+
+19. B1_S_034.png - SP-44 Inicio de separador a la izquierda
+    https://vial.vialcontrol.co/wp-content/uploads/2022/01/SP-44-INICIO-DE-SEPARADOR-A-LA-IZQUIERDA.png
+
+20. B1_S_035.jpg - Líneas amarillas en zigzag
+    https://carroya.com/noticias/sites/default/files/imagenes_noticias/800-lineas-amarillas-en-zigzag-.jpg
+
+21. B1_S_036.png - SI-01 Poste de destino
+    https://vial.vialcontrol.co/wp-content/uploads/2022/01/SI-01-POSTE-DE-DESTINO.png
+
+22. B1_S_037.png - SP-45 Zona de derrumbes
+    https://vial.vialcontrol.co/wp-content/uploads/2022/01/SP-45-ZONA-DE-DERRUMBES.png
+
+═══════════════════════════════════════════════════════════════════════════
+  EL VEHÍCULO - TESTIGOS DEL TABLERO (4 imágenes)
+═══════════════════════════════════════════════════════════════════════════
+
+23. B1_M_002.jpg - Testigo Check Engine (amarillo)
+    https://www.autofacil.es/wp-content/uploads/2021/04/Testigo-motor-1024x683.jpg
+
+24. B1_M_004.jpg - Testigo temperatura motor (rojo)
+    https://www.actualidadmotor.com/wp-content/uploads/2022/03/testigo-temperatura-motor-rojo.jpg
+
+25. B1_M_008.jpg - Testigo batería (rojo)
+    https://www.actualidadmotor.com/wp-content/uploads/2016/09/Testigo-bateria-coche-rojo-830x553.jpg
+
+26. B1_M_011.jpg - Testigo luces altas (azul)
+    https://www.autofacil.es/wp-content/uploads/2021/04/Testigo-luces-largas-1024x683.jpg
+
+═══════════════════════════════════════════════════════════════════════════
+  INSTRUCCIONES RÁPIDAS
+═══════════════════════════════════════════════════════════════════════════
+
+1. DESCARGAR:
+   ./download-images.sh
+   (o descargar manualmente desde las URLs de arriba)
+
+2. GUARDAR EN:
+   public/images/questions/
+   (usar exactamente los nombres indicados)
+
+3. ACTUALIZAR JSON:
+   node replace-image-urls.js
+   (crea backup automático)
+
+4. VERIFICAR:
+   npm run dev
+   (abrir http://localhost:5173 y revisar que las imágenes se muestren)
+
+═══════════════════════════════════════════════════════════════════════════
