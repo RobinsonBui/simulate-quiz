@@ -772,7 +772,22 @@
         "bloque": "Señalización Vial",
         "tema": "Reglamentarias",
         "pregunta": "¿Qué indica esta señal SR-41?",
-        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGxx5y6tlTvsaJefbOCZx6Z-v2ECILVXT7lQ&s",
+        "imagen": "https://jopavisos.com/wp-content/uploads/2021/04/Transito-rojas-06.png",
+        "opciones": [
+            "Prohibido seguir derecho",
+            "Vía de un solo sentido",
+            "Prohibido Dejar o Recoger Pasajeros",
+            "Giro obligatorio a la derecha"
+        ],
+        "respuestaCorrecta": 2,
+        "explicacion": "la señal Sr-41 indica que se prohibe dejar o recoger pasajeros en el carril de aceleración."
+    },
+    {
+        "id": "B1_S_0027",
+        "bloque": "Señalización Vial",
+        "tema": "Reglamentarias",
+        "pregunta": "¿Qué indica esta señal S-11?",
+        "imagen": "https://static.wixstatic.com/media/69c7de_f53f7508da684aa4a8ad9dcea7f6a5ba~mv2.png/v1/fill/w_500,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/69c7de_f53f7508da684aa4a8ad9dcea7f6a5ba~mv2.png",
         "opciones": [
             "Prohibido seguir derecho",
             "Vía de un solo sentido",
@@ -780,7 +795,7 @@
             "Giro obligatorio a la derecha"
         ],
         "respuestaCorrecta": 2,
-        "explicacion": "La señal SR-41 (Circulación Obligatoria) indica que la vía es de un solo sentido y solo se puede transitar en la dirección de la flecha.",
+        "explicacion": "La señal S-11 (Circulación Obligatoria) indica que la vía es de un solo sentido y solo se puede transitar en la dirección de la flecha.",
         "fuente": "Manual de Señalización Vial"
     },
     {

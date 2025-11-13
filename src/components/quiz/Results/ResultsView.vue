@@ -13,7 +13,7 @@ const props = defineProps({
   userAnswers: {
     type: Array as () => Array<{
       question: any;
-      selected: number | null;
+      selected: number | undefined;
       isCorrect: boolean;
     }>,
     required: true
@@ -131,14 +131,14 @@ const handleRestart = () => {
           >
             <span class="font-medium">Tu respuesta:</span>
             <span class="ml-1">
-              {{ answer.selected !== null ? 
+              {{ answer.selected !== undefined ? 
                  answer.question.opciones[answer.selected] : 
                  'No respondida' }}
             </span>
           </div>
           
           <div 
-            v-if="!answer.isCorrect && answer.selected !== null"
+            v-if="!answer.isCorrect && answer.selected !== undefined"
             class="p-2 sm:p-3 rounded-md bg-green-50 border border-green-100 text-green-800 text-sm sm:text-base"
           >
             <span class="font-medium">Respuesta correcta:</span>

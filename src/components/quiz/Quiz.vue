@@ -14,13 +14,13 @@ const statsStore = useQuestionStatsStore();
 const quizStarted = ref(false);
 const categoryWeights = ref<Record<string, number>>({});
 const currentQuestionIndex = ref(0);
-const selectedOption = ref<number | null>(null);
+const selectedOption = ref<number | undefined>(undefined);
 const score = ref(0);
 const quizCompleted = ref(false);
 const timeLeft = ref(60);
 const timer = ref<number | null>(null);
 const showResults = ref(false);
-const userAnswers = ref<Array<{question: any, selected: number | null, isCorrect: boolean}>>([]);
+const userAnswers = ref<Array<{question: any, selected: number | undefined, isCorrect: boolean}>>([]);
 
 // Función para seleccionar preguntas con énfasis en categorías y dificultad
 const selectQuestionsWithEmphasis = (weights: Record<string, number>) => {
@@ -59,8 +59,11 @@ const selectQuestionsWithEmphasis = (weights: Record<string, number>) => {
       .sort(([_, a], [__, b]) => b - a);
     
     for (let i = 0; i < remainingQuestions; i++) {
-      const category = categoriesWithWeight[i % categoriesWithWeight.length][0];
-      questionsPerCategory[category] = (questionsPerCategory[category] || 0) + 1;
+      const entry = categoriesWithWeight[i % categoriesWithWeight.length];
+      if (entry) {
+        const category = entry[0];
+        questionsPerCategory[category] = (questionsPerCategory[category] || 0) + 1;
+      }
     }
   }
   
@@ -100,16 +103,22 @@ const selectWeightedQuestions = (questions: any[], count: number) => {
     let selectedIndex = 0;
     
     for (let j = 0; j < available.length; j++) {
-      random -= available[j].weight;
-      if (random <= 0) {
-        selectedIndex = j;
-        break;
+      const item = available[j];
+      if (item) {
+        random -= item.weight;
+        if (random <= 0) {
+          selectedIndex = j;
+          break;
+        }
       }
     }
     
     // Agregar pregunta seleccionada y removerla de disponibles
-    selected.push(available[selectedIndex].question);
-    available.splice(selectedIndex, 1);
+    const selectedItem = available[selectedIndex];
+    if (selectedItem) {
+      selected.push(selectedItem.question);
+      available.splice(selectedIndex, 1);
+    }
   }
   
   return selected;
@@ -173,7 +182,7 @@ const nextQuestion = () => {
   }
   
   // Limpiar selección
-  selectedOption.value = null;
+  selectedOption.value = undefined;
   
   // Detener temporizador
   if (timer.value) {
@@ -209,7 +218,7 @@ const handleStartQuiz = (weights: Record<string, number>) => {
 // Reiniciar cuestionario
 const restartQuiz = () => {
   currentQuestionIndex.value = 0;
-  selectedOption.value = null;
+  selectedOption.value = undefined;
   score.value = 0;
   quizCompleted.value = false;
   showResults.value = false;

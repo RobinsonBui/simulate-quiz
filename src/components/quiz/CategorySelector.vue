@@ -96,15 +96,17 @@ const categories = ref<CategoryEmphasis[]>([
 
 // Incrementar énfasis
 const increaseEmphasis = (index: number) => {
-  if (categories.value[index].weight < 5) {
-    categories.value[index].weight++;
+  const category = categories.value[index];
+  if (category && category.weight < 5) {
+    category.weight++;
   }
 };
 
 // Decrementar énfasis
 const decreaseEmphasis = (index: number) => {
-  if (categories.value[index].weight > 0) {
-    categories.value[index].weight--;
+  const category = categories.value[index];
+  if (category && category.weight > 0) {
+    category.weight--;
   }
 };
 

@@ -50,7 +50,10 @@ const questionsByBloque = computed(() => {
     if (!grouped[q.bloque]) {
       grouped[q.bloque] = [];
     }
-    grouped[q.bloque].push(q);
+    const bloqueArray = grouped[q.bloque];
+    if (bloqueArray) {
+      bloqueArray.push(q);
+    }
   });
   return grouped;
 });
