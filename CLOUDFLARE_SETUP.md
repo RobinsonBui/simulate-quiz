@@ -144,6 +144,13 @@ Crea un archivo `_redirects` o `_headers` en la carpeta `public/` si necesitas:
 2. Verifica que `package.json` tenga todos los scripts
 3. Asegúrate de que `NODE_VERSION` sea 18 o 20
 
+**Error: "lockfile had changes, but lockfile is frozen"**
+- ✅ Ya está solucionado en el proyecto
+- El `package.json` incluye `"packageManager": "npm@10.9.2"`
+- Esto fuerza a Cloudflare a usar npm en lugar de bun
+- Si persiste, ve a Settings > Build & deployments > Build configurations
+- Asegúrate de que no haya override del package manager
+
 ### Los assets no cargan
 
 1. Verifica que `base: '/'` esté configurado para Cloudflare
