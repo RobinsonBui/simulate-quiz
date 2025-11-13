@@ -5,6 +5,10 @@ import QuizHeader from './Shared/QuizHeader.vue';
 import QuestionCard from './Question/QuestionCard.vue';
 import ResultsView from './Results/ResultsView.vue';
 import CategorySelector from './CategorySelector.vue';
+import { useQuestionStatsStore } from '../../stores/questionStats';
+
+// Store de estadísticas
+const statsStore = useQuestionStatsStore();
 
 // Estado del simulador
 const quizStarted = ref(false);
@@ -18,7 +22,7 @@ const timer = ref<number | null>(null);
 const showResults = ref(false);
 const userAnswers = ref<Array<{question: any, selected: number | null, isCorrect: boolean}>>([]);
 
-// Función para seleccionar preguntas con énfasis en categorías
+// Función para seleccionar preguntas con énfasis en categorías y dificultad
 const selectQuestionsWithEmphasis = (weights: Record<string, number>) => {
   const selectedQuestions: any[] = [];
   const questionsByCategory: Record<string, any[]> = {};
@@ -60,16 +64,55 @@ const selectQuestionsWithEmphasis = (weights: Record<string, number>) => {
     }
   }
   
-  // Seleccionar preguntas aleatorias de cada categoría
+  // Seleccionar preguntas usando selección ponderada por dificultad
   Object.entries(questionsPerCategory).forEach(([category, count]) => {
     const categoryQuestions = questionsByCategory[category] || [];
-    const shuffled = [...categoryQuestions].sort(() => 0.5 - Math.random());
-    const selected = shuffled.slice(0, Math.min(count, shuffled.length));
+    const selected = selectWeightedQuestions(categoryQuestions, count);
     selectedQuestions.push(...selected);
   });
   
   // Mezclar todas las preguntas seleccionadas
   return selectedQuestions.sort(() => 0.5 - Math.random());
+};
+
+// Selección ponderada de preguntas basada en dificultad del usuario
+const selectWeightedQuestions = (questions: any[], count: number) => {
+  if (questions.length <= count) {
+    return questions;
+  }
+  
+  // Crear array con preguntas y sus pesos
+  const weightedQuestions = questions.map(q => ({
+    question: q,
+    weight: statsStore.getSelectionWeight(q.id)
+  }));
+  
+  // Selección ponderada
+  const selected: any[] = [];
+  const available = [...weightedQuestions];
+  
+  for (let i = 0; i < count && available.length > 0; i++) {
+    // Calcular suma total de pesos
+    const totalWeight = available.reduce((sum, item) => sum + item.weight, 0);
+    
+    // Seleccionar aleatoriamente basado en pesos
+    let random = Math.random() * totalWeight;
+    let selectedIndex = 0;
+    
+    for (let j = 0; j < available.length; j++) {
+      random -= available[j].weight;
+      if (random <= 0) {
+        selectedIndex = j;
+        break;
+      }
+    }
+    
+    // Agregar pregunta seleccionada y removerla de disponibles
+    selected.push(available[selectedIndex].question);
+    available.splice(selectedIndex, 1);
+  }
+  
+  return selected;
 };
 
 // Mezclar preguntas y seleccionar 40
@@ -120,6 +163,9 @@ const nextQuestion = () => {
     selected: selectedOption.value,
     isCorrect
   });
+  
+  // Registrar intento en el store de estadísticas
+  statsStore.recordAttempt(currentQuestion.value.id, isCorrect);
   
   // Actualizar puntuación
   if (isCorrect) {

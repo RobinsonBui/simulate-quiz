@@ -2,8 +2,10 @@
 import { ref } from 'vue';
 import Quiz from './components/quiz/Quiz.vue';
 import ImageChecker from './components/quiz/ImageChecker.vue';
+import UserStats from './components/quiz/Stats/UserStats.vue';
 
 const currentView = ref<'quiz' | 'image-checker'>('quiz');
+const showStats = ref(false);
 
 // Detectar si estamos en modo debug (URL con ?debug=images)
 const urlParams = new URLSearchParams(window.location.search);
@@ -38,6 +40,14 @@ if (urlParams.get('debug') === 'images') {
               <span class="sm:hidden">📝 Quiz</span>
             </button>
             <button
+              @click="showStats = true"
+              class="flex-1 sm:flex-none px-3 sm:px-4 py-2 rounded-lg text-sm sm:text-base font-medium transition-colors bg-gray-100 text-gray-700 hover:bg-gray-200"
+              title="Ver tus estadísticas"
+            >
+              <span class="hidden sm:inline">📊 Estadísticas</span>
+              <span class="sm:hidden">📊 Stats</span>
+            </button>
+            <button
               @click="currentView = 'image-checker'"
               :class="[
                 'flex-1 sm:flex-none px-3 sm:px-4 py-2 rounded-lg text-sm sm:text-base font-medium transition-colors',
@@ -63,6 +73,9 @@ if (urlParams.get('debug') === 'images') {
         </transition>
       </div>
     </div>
+
+    <!-- Modal de Estadísticas -->
+    <UserStats v-if="showStats" @close="showStats = false" />
   </div>
 </template>
 

@@ -2414,5 +2414,773 @@
         "respuestaCorrecta": 1,
         "explicacion": "Es una sanción que consiste en llevar el vehículo a un patio oficial (usando una grúa) hasta que el conductor subsane la causa de la infracción (ej. SOAT vencido, embriaguez).",
         "fuente": "Código Nacional de Tránsito"
+    },
+    {
+        "id": "B1_M_023",
+        "bloque": "El Vehículo",
+        "tema": "Mecánica Básica",
+        "pregunta": "¿Qué función cumple el 'embrague' o 'clutch' en un vehículo de transmisión mecánica?",
+        "imagen": null,
+        "opciones": [
+            "Frenar el vehículo",
+            "Acelerar el motor",
+            "Desconectar la transmisión de potencia del motor a la caja de velocidades",
+            "Enfriar el aceite"
+        ],
+        "respuestaCorrecta": 2,
+        "explicacion": "El embrague permite interrumpir la transmisión de fuerza del motor a las ruedas para poder cambiar de marcha sin dañar la caja.",
+        "fuente": "Manual de Mecánica Básica"
+    },
+    {
+        "id": "B1_S_039",
+        "bloque": "Señalización Vial",
+        "tema": "Reglamentarias",
+        "pregunta": "¿Qué indica esta señal SR-06?",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SR-06-PROHIBIDO-GIRAR-A-LA-IZQUIERDA.png",
+        "opciones": [
+            "Giro obligatorio a la izquierda",
+            "Prohibido girar a la derecha",
+            "Prohibido girar a la izquierda",
+            "Vía de doble sentido"
+        ],
+        "respuestaCorrecta": 2,
+        "explicacion": "La señal SR-06 prohíbe girar a la izquierda. IMPORTANTE: Al prohibir el giro a la izquierda, implícitamente también prohíbe el giro en 'U' en ese punto.",
+        "fuente": "Manual de Señalización Vial"
+    },
+    {
+        "id": "B1_N_022",
+        "bloque": "Normativa y Reglas",
+        "tema": "Prelación",
+        "pregunta": "Cuando un vehículo va a girar en una intersección y hay peatones cruzando la vía a la que va a entrar, ¿quién tiene la prelación?",
+        "imagen": null,
+        "opciones": [
+            "El vehículo, porque va más rápido",
+            "El peatón tiene la prelación",
+            "Quien llegue primero a la esquina",
+            "El vehículo, si el semáforo vehicular está en verde"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "Art. 65. Al girar, el conductor debe ceder el paso a los peatones que estén cruzando o intentando cruzar la calzada hacia donde se dirige el vehículo.",
+        "fuente": "Código Nacional de Tránsito, Art. 65"
+    },
+    {
+        "id": "B1_SV_022",
+        "bloque": "Seguridad Vial",
+        "tema": "Comportamiento",
+        "pregunta": "¿Qué debe hacer si ve un balón rodando hacia la calle?",
+        "imagen": null,
+        "opciones": [
+            "Pitar para asustar a quien venga",
+            "Acelerar para pasar antes",
+            "Disminuir la velocidad inmediatamente y prepararse para detenerse",
+            "Ignorarlo"
+        ],
+        "respuestaCorrecta": 2,
+        "explicacion": "Regla de oro del manejo defensivo: 'Detrás de un balón, siempre corre un niño'. Debe anticipar que un menor saldrá corriendo sin mirar.",
+        "fuente": "Manual de Conducción Defensiva"
+    },
+    {
+        "id": "B1_I_025",
+        "bloque": "Infracciones y Sanciones",
+        "tema": "Tipos de Infracciones",
+        "pregunta": "Conducir un vehículo sin luces (o con luces dañadas) en horas nocturnas o situaciones de baja visibilidad es una infracción:",
+        "imagen": null,
+        "opciones": [
+            "Tipo D (30 SMLDV) y posible inmovilización",
+            "Tipo A (Amonestación)",
+            "Tipo B (8 SMLDV)",
+            "No es infracción si hay alumbrado público"
+        ],
+        "respuestaCorrecta": 0,
+        "explicacion": "Es la infracción D.08. Es considerada muy peligrosa. Genera multa de 30 SMLDV y la inmovilización del vehículo si no se puede reparar en el sitio.",
+        "fuente": "Código Nacional de Tránsito"
+    },
+    {
+        "id": "B1_S_040",
+        "bloque": "Señalización Vial",
+        "tema": "Preventivas",
+        "pregunta": "¿Qué advierte la señal SP-39?",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SP-39-CIRCULACION-EN-DOS-SENTIDOS.png",
+        "opciones": [
+            "Vía de un solo sentido",
+            "Separador central",
+            "Circulación en dos sentidos (bidireccional)",
+            "Prohibido adelantar"
+        ],
+        "respuestaCorrecta": 2,
+        "explicacion": "La señal SP-39 advierte que la vía, que posiblemente venía siendo de un solo sentido, pasa a tener tráfico en ambas direcciones.",
+        "fuente": "Manual de Señalización Vial"
+    },
+    {
+        "id": "B1_M_024",
+        "bloque": "El Vehículo",
+        "tema": "Mecánica Básica",
+        "pregunta": "¿Qué es el 'fading' o fatiga de los frenos?",
+        "imagen": null,
+        "opciones": [
+            "Cuando las pastillas están nuevas",
+            "La pérdida de capacidad de frenado por sobrecalentamiento",
+            "El ruido que hacen los frenos",
+            "El sistema ABS activándose"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "Ocurre cuando se abusa del pedal del freno (ej. bajando una montaña). El líquido hierve o las pastillas se cristalizan, y el carro deja de frenar aunque se pise el pedal a fondo.",
+        "fuente": "Manual de Mecánica Básica"
+    },
+    {
+        "id": "B1_N_023",
+        "bloque": "Normativa y Reglas",
+        "tema": "Prohibiciones",
+        "pregunta": "¿Está permitido lavar el vehículo en vía pública (en la calle frente a la casa)?",
+        "imagen": null,
+        "opciones": [
+            "Sí, si es agua limpia",
+            "Sí, los domingos",
+            "No, está prohibido",
+            "Sí, si no estorba el tráfico"
+        ],
+        "respuestaCorrecta": 2,
+        "explicacion": "El Código de Tránsito (y el Código de Policía) prohíbe lavar vehículos en vía pública por el desperdicio de agua y la contaminación con jabones y aceites en el alcantarillado pluvial.",
+        "fuente": "Código Nacional de Tránsito / Código de Policía"
+    },
+    {
+        "id": "B1_S_041",
+        "bloque": "Señalización Vial",
+        "tema": "Informativas",
+        "pregunta": "Esta señal azul con una 'P' (SI-06) indica:",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SI-06-ZONA-DE-PARQUEO.png",
+        "opciones": [
+            "Prohibido Parquear",
+            "Policía Nacional",
+            "Zona de Parqueo permitido",
+            "Peaje"
+        ],
+        "respuestaCorrecta": 2,
+        "explicacion": "La señal SI-06 indica la existencia de un sitio autorizado para estacionar vehículos.",
+        "fuente": "Manual de Señalización Vial"
+    },
+    {
+        "id": "B1_E_018",
+        "bloque": "Conducción Especial",
+        "tema": "Condiciones Adversas",
+        "pregunta": "En caso de varada nocturna, ¿dónde es más seguro ubicarse?",
+        "imagen": null,
+        "opciones": [
+            "Detrás del vehículo para empujar",
+            "Dentro del vehículo durmiendo",
+            "Fuera de la calzada y la berma, lejos del tráfico",
+            "Delante del vehículo haciendo señales"
+        ],
+        "respuestaCorrecta": 2,
+        "explicacion": "Quedarse dentro del carro o pararse en la vía es muy peligroso de noche por el riesgo de ser impactado por otro conductor dormido o ebrio. Lo mejor es alejarse de la vía.",
+        "fuente": "Manual de Seguridad Vial"
+    },
+    {
+        "id": "B1_M_025",
+        "bloque": "El Vehículo",
+        "tema": "Seguridad Activa",
+        "pregunta": "¿Qué indican las siglas 'SRS' que suelen aparecer en el volante o tablero?",
+        "imagen": null,
+        "opciones": [
+            "Sistema de Radio Satelital",
+            "Sistema de Retención Suplementaria (Airbags)",
+            "Suspensión Rígida Super",
+            "Sistema de Ruedas Seguras"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "SRS significa 'Supplemental Restraint System'. Indica que el vehículo está equipado con bolsas de aire (airbags), que son suplementarios al cinturón de seguridad.",
+        "fuente": "Manual del Conductor"
+    },
+    {
+        "id": "B1_I_026",
+        "bloque": "Infracciones y Sanciones",
+        "tema": "Procedimiento",
+        "pregunta": "¿Puede un conductor grabar el procedimiento de un agente de tránsito?",
+        "imagen": null,
+        "opciones": [
+            "No, es ilegal grabar a la autoridad",
+            "Sí, es un derecho ciudadano para garantizar la transparencia",
+            "Solo si el agente le da permiso escrito",
+            "Solo si es periodista"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "La ley colombiana permite a los ciudadanos grabar los procedimientos policiales y de tránsito en vía pública como mecanismo de control y defensa.",
+        "fuente": "Código de Policía / Jurisprudencia"
+    },
+    {
+        "id": "B1_S_042",
+        "bloque": "Señalización Vial",
+        "tema": "Reglamentarias",
+        "pregunta": "¿Qué significa la señal SR-12?",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SR-12-CIRCULACION-PROHIBIDA-DE-MOTOCICLETAS.png",
+        "opciones": [
+            "Zona exclusiva de motos",
+            "Cruce de motos",
+            "Circulación prohibida de motocicletas",
+            "Parqueadero de motos"
+        ],
+        "respuestaCorrecta": 2,
+        "explicacion": "La señal SR-12 prohíbe el tránsito de motocicletas por esa vía específica (común en carriles centrales de autopistas o túneles restringidos).",
+        "fuente": "Manual de Señalización Vial"
+    },
+    {
+        "id": "B1_N_024",
+        "bloque": "Normativa y Reglas",
+        "tema": "Documentación",
+        "pregunta": "¿Es obligatorio portar la tarjeta de propiedad (Licencia de Tránsito) original?",
+        "imagen": null,
+        "opciones": [
+            "Sí, la fotocopia no es válida (salvo autenticada en algunos contextos antiguos, pero hoy se prefiere original o digital)",
+            "Basta con una foto en WhatsApp",
+            "No es necesario portarla",
+            "Solo se necesita el SOAT"
+        ],
+        "respuestaCorrecta": 0,
+        "explicacion": "Se debe presentar el documento original (físico) o la consulta en línea a través del RUNT/Ministerio de Transporte. Las fotocopias simples no tienen validez ante el agente.",
+        "fuente": "Código Nacional de Tránsito"
+    },
+    {
+        "id": "B1_SV_023",
+        "bloque": "Seguridad Vial",
+        "tema": "Alcohol y Drogas",
+        "pregunta": "¿Qué es el 'conductor elegido'?",
+        "imagen": null,
+        "opciones": [
+            "El que maneja mejor",
+            "La persona designada que NO consume alcohol para conducir el vehículo del grupo de forma segura",
+            "El conductor de Uber",
+            "El dueño del carro"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "Es una estrategia de seguridad vial donde el grupo designa a una persona que se compromete a no beber alcohol para encargarse de llevar a los demás y al vehículo a casa.",
+        "fuente": "Campañas de Seguridad Vial"
+    },
+    {
+        "id": "B1_M_026",
+        "bloque": "El Vehículo",
+        "tema": "Mecánica Básica",
+        "pregunta": "¿Qué es el 'líquido de frenos' y por qué es higroscópico?",
+        "imagen": null,
+        "opciones": [
+            "Es aceite de motor; higroscópico significa que lubrica",
+            "Es un fluido hidráulico; higroscópico significa que absorbe humedad del ambiente",
+            "Es agua con jabón",
+            "Es un gas refrigerante"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "El líquido de frenos absorbe humedad (agua) del aire con el tiempo. Esto es peligroso porque el agua hierve a menor temperatura, causando fallas en los frenos. Por eso se debe cambiar periódicamente.",
+        "fuente": "Manual de Mecánica Básica"
+    },
+    {
+        "id": "B1_S_043",
+        "bloque": "Señalización Vial",
+        "tema": "Marcas Viales",
+        "pregunta": "¿Qué significa una flecha en el pavimento que apunta hacia adelante y tiene la palabra 'SOLO'?",
+        "imagen": null,
+        "opciones": [
+            "Que solo va un carro",
+            "Que ese carril es exclusivo para seguir de frente (no se puede girar)",
+            "Que solo pueden ir buses",
+            "Que la vía se acaba"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "La marca 'SOLO' refuerza la dirección de la flecha. Si la flecha es recta, obliga a seguir derecho desde ese carril, prohibiendo los giros.",
+        "fuente": "Manual de Señalización Vial"
+    },
+    {
+        "id": "B1_I_027",
+        "bloque": "Infracciones y Sanciones",
+        "tema": "Sanciones",
+        "pregunta": "¿Cuándo prescribe (se vence) una multa de tránsito si no hay cobro coactivo?",
+        "imagen": null,
+        "opciones": [
+            "A los 6 meses",
+            "A los 3 años",
+            "A los 10 años",
+            "Nunca vence"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "Según el Estatuto Tributario y Código de Tránsito, la acción de cobro prescribe a los 3 años si la autoridad no ha notificado el mandamiento de pago (cobro coactivo). Si lo notifica, el término se extiende.",
+        "fuente": "Código Nacional de Tránsito, Art. 159"
+    },
+    {
+        "id": "B1_N_025",
+        "bloque": "Normativa y Reglas",
+        "tema": "Velocidades",
+        "pregunta": "En carreteras nacionales (vías fuera de la ciudad), ¿cuál es la velocidad máxima permitida para vehículos particulares?",
+        "imagen": null,
+        "opciones": [
+            "120 km/h",
+            "100 km/h (o 90 km/h según señalización)",
+            "80 km/h siempre",
+            "No hay límite"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "La Ley 2251 ajustó los límites. En carreteras nacionales es máximo 90 km/h, aunque en tramos de doble calzada con señalización específica puede llegar hasta 100 km/h, pero NUNCA 120 km/h.",
+        "fuente": "Ley 2251 de 2022"
+    },
+    {
+        "id": "B1_SV_024",
+        "bloque": "Seguridad Vial",
+        "tema": "Primeros Auxilios",
+        "pregunta": "¿Qué debe hacer si hay cables de alta tensión caídos sobre un vehículo accidentado?",
+        "imagen": null,
+        "opciones": [
+            "Correr a sacar a los pasajeros",
+            "Intentar quitar los cables con un palo",
+            "Instruir a los ocupantes para que NO se bajen y esperar a la empresa de energía",
+            "Echar agua para apagar chispas"
+        ],
+        "respuestaCorrecta": 2,
+        "explicacion": "El vehículo actúa como una 'Jaula de Faraday' protegiendo a los de adentro. Si se bajan, pueden hacer tierra y electrocutarse. Deben esperar adentro a que corten la energía.",
+        "fuente": "Manual de Primeros Auxilios / Riesgo Eléctrico"
+    },
+    {
+        "id": "B1_M_027",
+        "bloque": "El Vehículo",
+        "tema": "Mecánica Básica",
+        "pregunta": "¿Cómo sabe qué presión de aire deben llevar las llantas de su carro?",
+        "imagen": null,
+        "opciones": [
+            "Siempre es 30 PSI para todos",
+            "Mirando la calcomanía en el marco de la puerta del conductor o el manual del propietario",
+            "Preguntándole al vecino",
+            "Tocando la llanta con el pie"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "Cada vehículo tiene una presión específica diseñada por el fabricante, que suele estar en una etiqueta en el paral de la puerta, tapa de gasolina o manual. No se debe adivinar.",
+        "fuente": "Manual del Conductor"
+    },
+    {
+        "id": "B1_S_044",
+        "bloque": "Señalización Vial",
+        "tema": "Preventivas",
+        "pregunta": "¿Qué indica la señal SP-29?",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SP-29-PREVENCION-DE-PARE.png",
+        "opciones": [
+            "Pare obligatorio aquí",
+            "Prevención de Pare (Semáforo o señal de Pare más adelante oculto)",
+            "Zona de parqueo",
+            "Fin de la vía"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "La señal 'Prevención de Pare' avisa al conductor que se acerca a una detención obligatoria que quizás no es visible todavía por una curva o pendiente.",
+        "fuente": "Manual de Señalización Vial"
+    },
+    {
+        "id": "B1_C_021",
+        "bloque": "El Conductor",
+        "tema": "Aptitudes",
+        "pregunta": "¿Qué es la 'visión periférica'?",
+        "imagen": null,
+        "opciones": [
+            "Ver bien de lejos",
+            "La capacidad de ver lo que sucede a los lados (casi 180°) sin mover la cabeza",
+            "Ver en la oscuridad",
+            "Ver los colores"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "Es fundamental para detectar peatones o vehículos que se acercan por los lados. Esta capacidad disminuye con la velocidad y el alcohol.",
+        "fuente": "Manual de Conducción"
+    },
+    {
+        "id": "B1_I_028",
+        "bloque": "Infracciones y Sanciones",
+        "tema": "Tipos de Infracciones",
+        "pregunta": "Bloquear una intersección (quedar atravesado en el cruce) es una infracción:",
+        "imagen": null,
+        "opciones": [
+            "Tipo C (15 SMLDV)",
+            "Tipo A",
+            "No es infracción si el semáforo estaba en verde al entrar",
+            "Tipo D"
+        ],
+        "respuestaCorrecta": 0,
+        "explicacion": "Es la infracción C.31. Aún si tiene el semáforo en verde, no debe avanzar si no tiene espacio al otro lado para salir del cruce.",
+        "fuente": "Código Nacional de Tránsito"
+    },
+    {
+        "id": "B1_E_019",
+        "bloque": "Conducción Especial",
+        "tema": "Técnicas de Conducción",
+        "pregunta": "Al estacionar en una pendiente fuerte hacia abajo (bajada), ¿cómo debe dejar las ruedas y la caja?",
+        "imagen": null,
+        "opciones": [
+            "Ruedas rectas y en Neutro",
+            "Ruedas giradas hacia el andén y en Reversa",
+            "Ruedas giradas hacia el centro de la calle y en Primera",
+            "Solo con freno de mano"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "En bajada: Freno de mano a fondo, palanca en REVERSA (para trabar la caja en sentido contrario) y ruedas giradas hacia el ANDÉN (para que si rueda, choque contra el borde).",
+        "fuente": "Manual de Conducción"
+    },
+    {
+        "id": "B1_S_045",
+        "bloque": "Señalización Vial",
+        "tema": "Informativas",
+        "pregunta": "Esta señal SI-26 con el símbolo de un surtidor de gasolina indica:",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SI-26-ESTACION-DE-SERVICIO.png",
+        "opciones": [
+            "Peligro de incendio",
+            "Estación de servicio (Gasolinera) cerca",
+            "Zona de cargue de combustible",
+            "Fábrica de gasolina"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "Indica la proximidad o ubicación de una estación de servicio para abastecer combustible.",
+        "fuente": "Manual de Señalización Vial"
+    },
+    {
+        "id": "B1_M_028",
+        "bloque": "El Vehículo",
+        "tema": "Mecánica Básica",
+        "pregunta": "¿Qué es el 'odómetro'?",
+        "imagen": null,
+        "opciones": [
+            "El medidor de velocidad (velocímetro)",
+            "El medidor de revoluciones (tacómetro)",
+            "El contador de kilómetros recorridos (total o parcial)",
+            "El medidor de gasolina"
+        ],
+        "respuestaCorrecta": 2,
+        "explicacion": "El odómetro registra la distancia total recorrida por el vehículo. Es vital para saber cuándo realizar los mantenimientos (cambio de aceite, correas, etc.).",
+        "fuente": "Manual del Conductor"
+    },
+    {
+        "id": "B1_N_026",
+        "bloque": "Normativa y Reglas",
+        "tema": "Usuarios Vulnerables",
+        "pregunta": "Si un bus escolar se detiene y despliega una señal de 'Pare' lateral, ¿qué deben hacer los vehículos que van detrás?",
+        "imagen": null,
+        "opciones": [
+            "Adelantarlo con precaución",
+            "Pitar para que se mueva",
+            "Detenerse por completo hasta que el bus guarde la señal",
+            "Pasar rápido"
+        ],
+        "respuestaCorrecta": 2,
+        "explicacion": "Deben detenerse. La señal indica que hay niños subiendo o bajando y que podrían cruzar la calle repentinamente.",
+        "fuente": "Código Nacional de Tránsito, Art. 84"
+    },
+    {
+        "id": "B1_S_046",
+        "bloque": "Señalización Vial",
+        "tema": "Reglamentarias",
+        "pregunta": "¿Qué prohíbe la señal SR-21?",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SR-21-NO-ADELANTAR.png",
+        "opciones": [
+            "Prohibido girar",
+            "Prohibido parquear",
+            "Prohibido adelantar",
+            "Prohibido el cambio de carril"
+        ],
+        "respuestaCorrecta": 2,
+        "explicacion": "La señal SR-21 (No Adelantar) se coloca en tramos donde la visibilidad es nula o el ancho de la vía no permite realizar la maniobra de adelantamiento con seguridad.",
+        "fuente": "Manual de Señalización Vial"
+    },
+    {
+        "id": "B1_I_029",
+        "bloque": "Infracciones y Sanciones",
+        "tema": "Sanciones",
+        "pregunta": "Si usted paga el comparendo dentro de los primeros 5 días hábiles y hace el curso, ¿de cuánto es el descuento?",
+        "imagen": null,
+        "opciones": [
+            "25%",
+            "50%",
+            "75%",
+            "100%"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "La ley otorga un descuento del 50% sobre el valor de la multa si se realiza el curso pedagógico y se paga dentro del término inicial (5 días en vía, 11 en fotodetección).",
+        "fuente": "Código Nacional de Tránsito"
+    },
+    {
+        "id": "B1_E_020",
+        "bloque": "Conducción Especial",
+        "tema": "Eco-conducción",
+        "pregunta": "¿Qué es 'manejar en la zona verde' del tacómetro?",
+        "imagen": null,
+        "opciones": [
+            "Manejar por el pasto",
+            "Mantener las revoluciones (RPM) en el rango de mayor eficiencia del motor (generalmente entre 1.500 y 2.500 RPM)",
+            "Manejar solo cuando el semáforo está en verde",
+            "Manejar despacio"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "El tacómetro a menudo tiene una zona marcada (o un rango ideal) donde el motor entrega su mejor torque con el menor consumo. Mantenerse ahí es clave para la eco-conducción.",
+        "fuente": "Manual de Eco-conducción"
+    },
+    {
+        "id": "B1_M_029",
+        "bloque": "El Vehículo",
+        "tema": "Mecánica Básica",
+        "pregunta": "Si la dirección hidráulica se pone muy dura de repente, lo más probable es que:",
+        "imagen": null,
+        "opciones": [
+            "Falte aire en las llantas traseras",
+            "Se haya roto la correa que mueve la bomba de dirección o falte líquido hidráulico",
+            "El volante esté bloqueado",
+            "Sea normal en curvas"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "La asistencia hidráulica depende de una bomba movida por una correa y del fluido. Si falta alguno, la dirección se vuelve mecánica (muy dura de girar).",
+        "fuente": "Manual de Mecánica Básica"
+    },
+    {
+        "id": "B1_S_047",
+        "bloque": "Señalización Vial",
+        "tema": "Preventivas",
+        "pregunta": "¿Qué advierte la señal SP-20?",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SP-20-PEATONES-EN-LA-VIA.png",
+        "opciones": [
+            "Zona escolar",
+            "Peatones en la vía",
+            "Obras en la vía",
+            "Paradero de buses"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "La señal SP-20 advierte sobre la presencia frecuente de peatones transitando por la vía o cruzándola, en zonas que no necesariamente son escolares.",
+        "fuente": "Manual de Señalización Vial"
+    },
+    {
+        "id": "B1_N_027",
+        "bloque": "Normativa y Reglas",
+        "tema": "Documentación",
+        "pregunta": "¿Puede plastificar o laminar la Revisión Técnico-Mecánica (el certificado)?",
+        "imagen": null,
+        "opciones": [
+            "Sí, para protegerla",
+            "No, porque altera el documento y los sistemas de seguridad del papel",
+            "Sí, es obligatorio",
+            "Da igual, ahora todo es digital"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "Si tiene el certificado físico antiguo, no se debe plastificar porque los sellos de seguridad pierden validez. Actualmente, la RTM es virtual y se verifica en el RUNT, el papel es solo constancia.",
+        "fuente": "Ministerio de Transporte"
+    },
+    {
+        "id": "B1_C_022",
+        "bloque": "El Conductor",
+        "tema": "Aptitudes",
+        "pregunta": "¿Qué efecto visual produce la velocidad excesiva sobre las líneas de la carretera?",
+        "imagen": null,
+        "opciones": [
+            "Se ven más claras",
+            "Se ven discontinuas",
+            "Efecto estroboscópico o de movimiento que puede causar vértigo o fatiga visual",
+            "Ninguno"
+        ],
+        "respuestaCorrecta": 2,
+        "explicacion": "Ver las líneas pasar a gran velocidad durante mucho tiempo cansa el cerebro y los ojos, contribuyendo a la fatiga e hipnosis de la carretera.",
+        "fuente": "Manual de Conducción"
+    },
+    {
+        "id": "B1_S_048",
+        "bloque": "Señalización Vial",
+        "tema": "Marcas Viales",
+        "pregunta": "¿De qué color son las líneas que separan los carriles en una vía de UN SOLO sentido?",
+        "imagen": null,
+        "opciones": [
+            "Amarillas",
+            "Blancas",
+            "Rojas",
+            "Azules"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "Regla mnemotécnica: Blanco = Mismo sentido. Amarillo = Doble sentido (tráfico en contra).",
+        "fuente": "Manual de Señalización Vial"
+    },
+    {
+        "id": "B1_I_030",
+        "bloque": "Infracciones y Sanciones",
+        "tema": "Sanciones",
+        "pregunta": "Si usted vende su carro pero NO hace el traspaso y el nuevo dueño comete infracciones, ¿quién responde solidariamente?",
+        "imagen": null,
+        "opciones": [
+            "Solo el nuevo dueño",
+            "Usted, como propietario registrado ante el tránsito",
+            "El conductor elegido",
+            "Nadie"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "Legalmente, el dueño es quien figura en la tarjeta de propiedad. Hasta que no se haga el traspaso oficial, usted sigue siendo responsable de los impuestos y puede ser vinculado a procesos por multas o accidentes.",
+        "fuente": "Código Nacional de Tránsito"
+    },
+    {
+        "id": "B1_M_030",
+        "bloque": "El Vehículo",
+        "tema": "Mecánica Básica",
+        "pregunta": "¿Cuándo se deben usar las 'luces estacionarias' (cuatro luces intermitentes)?",
+        "imagen": null,
+        "opciones": [
+            "Cuando está lloviendo fuerte y va en movimiento",
+            "Solo cuando el vehículo está detenido por emergencia o situación de peligro",
+            "Para parquear en doble fila",
+            "Para entrar a un túnel"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "No se debe circular con las estacionarias prendidas (anulan las direccionales). Su uso correcto es indicar que el vehículo está parado por una emergencia o que hay un peligro inminente adelante que obliga a detenerse.",
+        "fuente": "Manual de Conducción"
+    },
+    {
+        "id": "B1_SV_025",
+        "bloque": "Seguridad Vial",
+        "tema": "Accidentes",
+        "pregunta": "¿Cuál es la lesión más común en los choques por alcance (traseros)?",
+        "imagen": "https://www.fisioterapia-online.com/sites/default/files/latigazo_cervical.jpg",
+        "opciones": [
+            "Fractura de pierna",
+            "Esguince cervical o 'Latigazo'",
+            "Trauma de tórax",
+            "Quemaduras"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "El movimiento brusco de la cabeza hacia adelante y hacia atrás causa el latigazo cervical. Por eso es vital tener el apoyacabezas bien ajustado.",
+        "fuente": "Manual de Seguridad Vial"
+    },
+    {
+        "id": "B1_N_028",
+        "bloque": "Normativa y Reglas",
+        "tema": "Maniobras",
+        "pregunta": "Al salir de un garaje o parqueadero privado hacia la vía pública, ¿quién tiene la prelación?",
+        "imagen": null,
+        "opciones": [
+            "El vehículo que sale",
+            "Los vehículos y peatones que transitan por la vía pública y el andén",
+            "El que pite primero",
+            "Nadie"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "El vehículo que se incorpora a la vía pública desde un predio privado pierde toda prelación y debe ceder el paso a todos (peatones en el andén y autos en la calle).",
+        "fuente": "Código Nacional de Tránsito"
+    },
+    {
+        "id": "B1_S_049",
+        "bloque": "Señalización Vial",
+        "tema": "Reglamentarias",
+        "pregunta": "¿Qué indica la señal SR-04?",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SR-04-PROHIBIDO-GIRAR-A-LA-DERECHA.png",
+        "opciones": [
+            "Giro obligatorio a la derecha",
+            "Prohibido girar a la derecha",
+            "Vía cerrada",
+            "Desvío"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "La señal SR-04 prohíbe el giro a la derecha en la intersección.",
+        "fuente": "Manual de Señalización Vial"
+    },
+    {
+        "id": "B1_E_021",
+        "bloque": "Conducción Especial",
+        "tema": "Técnicas de Conducción",
+        "pregunta": "¿Qué es el 'subviraje' (irse de trompa)?",
+        "imagen": null,
+        "opciones": [
+            "Cuando el carro gira más de lo esperado",
+            "Cuando al girar el volante, el carro tiende a seguir derecho (perder agarre adelante)",
+            "Manejar por debajo de la velocidad mínima",
+            "Un viraje subterráneo"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "Es común en autos de tracción delantera al entrar muy rápido a una curva. El auto 'no obedece' al volante y se sale de la curva hacia afuera.",
+        "fuente": "Manual de Conducción Deportiva/Defensiva"
+    },
+    {
+        "id": "B1_M_031",
+        "bloque": "El Vehículo",
+        "tema": "Mecánica Básica",
+        "pregunta": "Si la batería tiene bornes sulfatados (polvo blanco/azul), ¿qué sucede?",
+        "imagen": null,
+        "opciones": [
+            "Mejora la conexión",
+            "Se interrumpe el paso de corriente y el carro puede no encender",
+            "Aumenta la potencia",
+            "Nada, es normal"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "El sulfato aísla los contactos. Se deben limpiar con agua caliente y bicarbonato (o cepillo metálico) para asegurar un buen arranque.",
+        "fuente": "Manual de Mantenimiento"
+    },
+    {
+        "id": "B1_I_031",
+        "bloque": "Infracciones y Sanciones",
+        "tema": "Infracciones",
+        "pregunta": "¿Puede un policía de tránsito multarlo por llevar objetos que obstaculicen la visibilidad en el vidrio trasero (peluches, almohadas)?",
+        "imagen": null,
+        "opciones": [
+            "No, el carro es propiedad privada",
+            "Sí, es una infracción de seguridad (B.23)",
+            "Solo si tapa todo el vidrio",
+            "No, si tiene espejos laterales"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "Sí. Cualquier objeto que impida la visibilidad del conductor es sancionable, ya que pone en riesgo la seguridad al anular el espejo retrovisor central.",
+        "fuente": "Código Nacional de Tránsito"
+    },
+    {
+        "id": "B1_S_050",
+        "bloque": "Señalización Vial",
+        "tema": "Reglamentarias",
+        "pregunta": "¿Qué indica la señal SR-34?",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SR-34-PESO-MAXIMO-PERMITIDO.png",
+        "opciones": [
+            "Velocidad máxima",
+            "Altura máxima",
+            "Peso máximo permitido",
+            "Ancho máximo"
+        ],
+        "respuestaCorrecta": 2,
+        "explicacion": "Indica el peso bruto vehicular máximo permitido para transitar por ese puente o vía. Vital para camiones, pero importante que el particular sepa por qué los camiones toman desvíos.",
+        "fuente": "Manual de Señalización Vial"
+    },
+    {
+        "id": "B1_N_029",
+        "bloque": "Normativa y Reglas",
+        "tema": "Comportamiento",
+        "pregunta": "¿Está permitido arrojar basura (papeles, botellas) desde el vehículo?",
+        "imagen": null,
+        "opciones": [
+            "Sí, si es biodegradable",
+            "No, es una infracción de tránsito y ambiental",
+            "Sí, en carreteras destapadas",
+            "Solo colillas de cigarrillo"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "Es la infracción D.14. Arrojar residuos peligrosos o basura a la vía genera multa de 30 SMLDV por el peligro que representa para otros conductores y el medio ambiente.",
+        "fuente": "Código Nacional de Tránsito"
+    },
+    {
+        "id": "B1_M_032",
+        "bloque": "El Vehículo",
+        "tema": "Mecánica Básica",
+        "pregunta": "¿Para qué sirve la 'caja de cambios' o transmisión?",
+        "imagen": null,
+        "opciones": [
+            "Para frenar",
+            "Para administrar la fuerza y velocidad del motor a las ruedas",
+            "Para guardar herramientas",
+            "Para dirigir las llantas"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "Permite aprovechar la potencia del motor en diferentes situaciones: fuerza para arrancar/subir (cambios bajos) y velocidad para planear (cambios altos).",
+        "fuente": "Manual de Mecánica Básica"
+    },
+    {
+        "id": "B1_S_051",
+        "bloque": "Señalización Vial",
+        "tema": "Preventivas",
+        "pregunta": "La señal SP-11 'Glorieta' le indica que:",
+        "imagen": "https://vial.vialcontrol.co/wp-content/uploads/2022/01/SP-11-GLORIETA.png",
+        "opciones": [
+            "Debe detenerse obligatoriamente",
+            "Se aproxima a una intersección rotatoria (Glorieta/Rotonda)",
+            "Hay un monumento",
+            "Prohibido girar"
+        ],
+        "respuestaCorrecta": 1,
+        "explicacion": "Advierte la presencia de una glorieta más adelante. El conductor debe prepararse para reducir la velocidad y ceder el paso a los que ya están dentro.",
+        "fuente": "Manual de Señalización Vial"
     }
 ]
