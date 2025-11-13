@@ -44,15 +44,23 @@ Production branch: main
 
 **Build settings:**
 ```
-Framework preset: Vite
-Build command: npm run build
+Framework preset: None (o Vite)
+Build command: npm ci && npm run build
 Build output directory: dist
+Root directory: (dejar vacío)
 ```
 
-**Environment variables (opcional):**
+**⚠️ IMPORTANTE - Environment variables:**
+
+Debes agregar esta variable para forzar el uso de npm:
 ```
+NPM_FLAGS: --legacy-peer-deps
 NODE_VERSION: 20
 ```
+
+**O mejor aún, en "Build system version":**
+- Selecciona: **v2** (usa npm por defecto)
+- NO uses v1 (usa bun por defecto)
 
 ### 4️⃣ Deploy
 
@@ -145,11 +153,25 @@ Crea un archivo `_redirects` o `_headers` en la carpeta `public/` si necesitas:
 3. Asegúrate de que `NODE_VERSION` sea 18 o 20
 
 **Error: "lockfile had changes, but lockfile is frozen"**
-- ✅ Ya está solucionado en el proyecto
-- El `package.json` incluye `"packageManager": "npm@10.9.2"`
-- Esto fuerza a Cloudflare a usar npm en lugar de bun
-- Si persiste, ve a Settings > Build & deployments > Build configurations
-- Asegúrate de que no haya override del package manager
+
+Este error ocurre cuando Cloudflare usa `bun` en lugar de `npm`. Soluciones:
+
+**Solución 1 (Recomendada): Cambiar Build System Version**
+1. Ve a tu proyecto en Cloudflare Pages
+2. Settings > Builds & deployments
+3. En "Build system version" selecciona **v2**
+4. Guarda y redeploy
+
+**Solución 2: Cambiar Build Command**
+1. Ve a Settings > Builds & deployments > Build configurations
+2. Cambia el Build command a: `npm ci && npm run build`
+3. Agrega variable de entorno: `NPM_FLAGS=--legacy-peer-deps`
+4. Guarda y redeploy
+
+**Solución 3: Retry Deploy**
+1. Ve a la página de Deployments
+2. Click en "Retry deployment" en el deploy fallido
+3. A veces funciona en el segundo intento
 
 ### Los assets no cargan
 
